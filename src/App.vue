@@ -9,14 +9,17 @@
         </ul>
       </nav>
     </the-header>
-    <main></main>
+    <main>
+      <BaseArticle />
+    </main>
     <TheFooter />
   </div>
 </template>
 
 <script setup>
-import TheHeader from "./components/base/TheHeader.vue";
-import TheFooter from "./components/base/TheFooter.vue";
+import TheHeader from "./components/ui/TheHeader.vue";
+import TheFooter from "./components/ui/TheFooter.vue";
+import BaseArticle from "./components/base/BaseArticle.vue";
 
 const pageInfo = {
   title: "Oops, I did it",
