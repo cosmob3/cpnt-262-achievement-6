@@ -22,8 +22,8 @@ import TheFooter from "./components/ui/TheFooter.vue";
 import BaseArticle from "./components/base/BaseArticle.vue";
 
 const pageInfo = {
-  title: "Oops, I did it",
-  description: "This is the landing page for our website",
+  title: "Welcome to the Home Page",
+  description: "There is some more content if you scroll down",
 };
 
 const heroImage = {
